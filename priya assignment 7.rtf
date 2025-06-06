@@ -1,0 +1,210 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs32\lang9 Module -7: Network fundamental -\par
+1- \b0 Which of the following messages in the DHCP process are broadcasted? (Choose two)\par
+\b ans->Request: \b0 The client broadcasts a DHCPREQUEST message to request an IP address from the offered DHCP server.\par
+\b           Discover\b0 : The client broadcasts a DHCPDISCOVER message             to locate a DHCP server.\par
+\b 2- \b0 Which command would you use to ensure that an ACL does not block web-based TCP traffic?\par
+\b ans->(B) permit tcp any any eq 80\par
+\fs28 This command permits TCP traffic from any source IP address to any destination IP address on port 80, which is the default port for HTTP (web) traffic.\par
+\b0\fs32 3-Explain Network Topologies.\par
+\b ans->Network topologies refer to the physical or logical arrangement of devices on a network. It describes how devices are connected to each other and how data is transmitted between them. \par
+1. Bus Topology\par
+\fs28 - All devices are connected to a single cable (backbone).\par
+- Data is transmitted in a linear sequence.\par
+- Advantages: simple, easy to install, and requires less cable.\par
+- Disadvantages: difficult to troubleshoot, and a single fault can bring down the entire network.\par
+\fs32 2. Star Topology\par
+\fs28 - All devices are connected to a central device (hub or switch).\par
+- Data is transmitted from the central device to the destination device.\par
+- Advantages: easy to install, maintain, and troubleshoot.\par
+- Disadvantages: if the central device fails, the entire network is affected.\par
+\fs32 3. Ring Topology\par
+\fs28 - Devices are connected in a circular configuration.\par
+- Data is transmitted in a circular sequence.\par
+- Advantages: can be used for high-speed data transfer, and fault detection is easy.\par
+- Disadvantages: if one device fails, the entire network is affected.\par
+\fs32 4. Mesh Topology\par
+\fs28 - Each device is connected to every other device.\par
+- Data can be transmitted through multiple paths.\par
+- Advantages: provides redundancy, and data can be transmitted even if one device fails.\par
+- Disadvantages: expensive, complex, and difficult to install.\par
+\fs32 5. Tree Topology\par
+\fs28 - A combination of bus and star topologies.\par
+- Devices are connected to a central device, which is connected to a backbone cable.\par
+- Advantages: combines the advantages of bus and star topologies.\par
+- Disadvantages: can be complex and difficult to troubleshoot.\par
+\fs32 6. Hybrid Topology\par
+\fs28 - A combination of different topologies.\par
+- Devices are connected using a combination of bus, star, ring, and mesh topologies.\par
+- Advantages: provides flexibility and scalability.\par
+- Disadvantages: can be complex and difficult to manage.\par
+\b0\fs32 4-Explain TCP/IP Networking Model.\par
+\b ans->The TCP/IP (Transmission Control Protocol/Internet Protocol) networking model is a conceptual framework that describes how data is transmitted over the internet. It's a simplified model that consists of four layers:\par
+TCP/IP Layers\par
+1. Application Layer\par
+\fs28 - Provides services to end-user applications (e.g., email, file transfer, web browsing)\par
+- Protocols: HTTP, FTP, SMTP, DNS\par
+\fs32 2. Transport Layer\par
+\fs28 - Ensures reliable data transfer between devices\par
+- Provides error-checking and correction mechanisms\par
+- Protocols: TCP (reliable, connection-oriented), UDP (best-effort, connectionless)\par
+\fs32 3. Internet Layer\par
+\fs28 - Routes data between networks\par
+- Provides logical addressing (IP addresses)\par
+- Protocols: IP (Internet Protocol), ICMP (Internet Control Message Protocol), IGMP (Internet Group Management Protocol)\par
+\fs32 4. Network Access Layer\par
+\fs28 - Defines how devices access the network\par
+- Specifies physical addressing (MAC addresses)\par
+- Protocols: Ethernet, Wi-Fi, PPP (Point-to-Point Protocol)\par
+\fs32 Advantages\par
+\fs28 - Scalability: TCP/IP can handle large, complex networks.\par
+- Flexibility: TCP/IP supports multiple protocols and technologies.\par
+- Interoperability: TCP/IP enables communication between devices from different vendors.\par
+\b0\fs32 5-Explain LAN and WAN Network.\par
+\b ans->LAN (Local Area Network)\par
+\b0\fs28 A Local Area Network (LAN) is a network that is typically confined to a small geographical area, such as a home, office, or a campus. It connects devices within a limited space, allowing them to share resources like files, printers, and internet access. LANs are generally faster, more secure, and easier to maintain than wide-area networks.\par
+\b\fs32\par
+Key Features of LAN:\par
+Geographical Scope: \b0\fs28 Limited to a small area, such as a single building or office.\par
+\b\fs32 Ownership: \b0\fs28 Typically owned and managed by a single organization or individual.\par
+\b\fs32 Speed: \b0\fs28 LANs usually offer high data transfer speeds, ranging from 100 Mbps (Fast Ethernet) to 10 Gbps (for high-end networks).\par
+\b\fs32 Devices: \b0\fs28 Can connect a variety of devices like computers, printers, switches, routers, and servers.\par
+\b\fs32 Technologies Used:\par
+Ethernet: \b0\fs28 The most common LAN technology using wired connections.\par
+\b\fs32 Wi-Fi: \b0\fs28 Wireless LANs using IEEE 802.11 standards for wireless communication.\par
+\b\fs32 Data Transmission: \b0\fs28 Communication is generally fast and can support high volumes of data traffic.\par
+\b\fs32 Security\b0\fs28 : LANs are often more secure because they are restricted to a specific location, and access can be tightly controlled.\par
+\b\fs32 Examples of LAN:\par
+Home Networks: \b0\fs28 Devices like computers, smartphones, and printers connected to a home router.\par
+\b\fs32 Office Networks: \b0\fs28 A network of computers, servers, and printers in an office, all connected within the same building or campus.\par
+\b\fs32 WAN (Wide Area Network)\par
+\b0\fs28 A WAN is a computer network that spans a large geographical area, typically connecting multiple LANs or other networks. It allows devices to communicate and share resources over long distances.\par
+\b\fs32 Key Features of WAN:\par
+Geographical Scope: \b0\fs28 Covers a large area, ranging from different cities to entire countries or even across continents.\par
+\b\fs32 Ownership: \b0\fs28 WANs are often owned and operated by telecommunications companies (e.g., AT&T, Verizon), although some large businesses may own parts of their WAN infrastructure.\par
+\b\fs32 Speed: \b0\fs28 Data transfer speeds can vary significantly depending on the technology and the distance the data has to travel. WANs typically have lower speeds compared to LANs due to the complexity of the infrastructure.\par
+\b\fs32 Devices: \b0\fs28 WANs connect various LANs, routers, bridges, and other network devices across different locations.\par
+\b\fs32 Examples of WAN:\par
+\b0\fs28 1. Internet: A global network connecting billions of devices worldwide.\par
+2. Company network: A network connecting multiple offices or locations of a company.\par
+3. Telecommunication network: A network connecting multiple cities or regions, providing telephone and internet services.\par
+\fs32 6-Explain Operation of Switch.\par
+\b ans->A switch is a network device that connects multiple devices within a network, allowing them to communicate with each other.\par
+Operation of a Switch:\par
+\fs28 1. Receiving Frames: A switch receives frames from connected devices.\par
+2. Examining Frame Headers: The switch examines the frame headers to determine the destination MAC address.\par
+3. Looking Up MAC Addresses: The switch looks up the destination MAC address in its MAC address table.\par
+4. Forwarding Frames: If the destination MAC address is found, the switch forwards the frame to the corresponding port.\par
+5. Flooding: If the destination MAC address is not found, the switch floods the frame to all ports except the receiving port.\par
+6. Learning MAC Addresses: The switch learns the source MAC address of the frame and updates its MAC address table.\par
+Types of Switches:\par
+1. Unmanaged Switches: Simple switches that do not require configuration.\par
+2. Managed Switches: Switches that can be configured and managed.\par
+3. Smart Switches: Switches that offer advanced features like VLANs, QoS, and security.\par
+Advantages of Switches:\par
+1. Improved Network Performance: Switches improve network performance by reducing collisions and increasing bandwidth.\par
+2. Increased Security: Switches provide security features like VLANs and access control lists (ACLs).\par
+3. Better Network Management: Switches offer features like port mirroring and SNMP for better network\~management.\par
+\b0\fs32 7-Describe the purpose and functions of various network devices.\par
+\b ans->1. Hub\par
+\b0\fs28 - Purpose: Connects multiple devices within a network.\par
+- Functions:\par
+    - Receives incoming data signals and retransmits them to all connected devices.\par
+    - Amplifies weak signals to extend network reach.\par
+    - Simple, low-cost device.\par
+\b 2. Switch\b0\par
+- Purpose: Connects multiple devices within a network and forwards data packets.\par
+- Functions:\par
+    - Learns MAC addresses of connected devices.\par
+    - Forwards data packets to intended recipients.\par
+    - Filters out unnecessary traffic.\par
+    - Supports VLANs, QoS, and security features.\par
+\b 3. Router\par
+\b0 - Purpose: Connects multiple networks and routes data packets between them.\par
+- Functions:\par
+    - Routes data packets based on IP addresses.\par
+    - Connects LANs, WANs, and the internet.\par
+    - Supports NAT, firewalling, and VPNs.\par
+    - Provides network segmentation and security.\par
+\b 4. Modem\par
+\b0 - Purpose: Connects a network to the internet via a broadband connection.\par
+- Functions:\par
+    - Modulates digital data for transmission over analog phone lines or cable.\par
+    - Demodulates incoming analog signals to retrieve digital data.\par
+    - Supports broadband technologies like DSL, cable, and fiber.\par
+\b 5. Bridge\b0\par
+- Purpose: Connects two or more networks at the data link layer.\par
+- Functions:\par
+    - Forwards data packets between networks based on MAC addresses.\par
+    - Filters out unnecessary traffic.\par
+    - Supports network segmentation and security.\par
+\b 6. Gateway\b0\par
+- Purpose: Connects a network to another network or the internet.\par
+- Functions:\par
+    - Routes data packets between networks.\par
+    - Translates protocols and addresses between networks.\par
+    - Supports network segmentation and security.\par
+\b 7. Firewall\b0\par
+- Purpose: Protects a network from unauthorized access and malicious activity.\par
+- Functions:\par
+    - Filters incoming and outgoing traffic based on security rules.\par
+    - Blocks unauthorized access and malicious activity.\par
+    - Supports network segmentation and security.\par
+\b 8. Network Interface Card (NIC)\par
+\b0 - Purpose: Connects a device to a network.\par
+- Functions:\par
+    - Transmits and receives data packets over the network.\par
+    - Supports network protocols and addresses.\par
+    - Provides a physical connection to the network.\par
+\b 9. Wireless Access Point (WAP)\par
+\b0 - Purpose: Connects wireless devices to a network.\par
+- Functions:\par
+    - Transmits and receives wireless signals.\par
+    - Supports wireless protocols and security standards.\par
+    - Provides a connection point for wireless\~devices.\par
+\fs32 8-Make list of the appropriate media, cables, ports, and connectors to.\par
+\b ans->Media\par
+\fs28 1. Twisted Pair (TP) cable: Used for Ethernet connections, TP cable consists of two insulated copper wires twisted together.\par
+2. Coaxial cable: Used for broadband internet connections, coaxial cable consists of a central copper wire surrounded by insulation and a braided shield.\par
+3. Fiber Optic cable: Used for high-speed data transmission, fiber optic cable consists of thin glass or plastic fibers that transmit data as light signals.\par
+4. Wireless media: Used for wireless networking, wireless media transmit data through radio waves or infrared signals.\par
+\fs32 Cables\fs28\par
+\b0 1. Category 5 (Cat5) cable: A type of TP cable used for Ethernet connections, supporting speeds up to 100 Mbps.\par
+2. Category 6 (Cat6) cable: A type of TP cable used for Ethernet connections, supporting speeds up to 1 Gbps.\par
+3. Category 7 (Cat7) cable: A type of TP cable used for Ethernet connections, supporting speeds up to 10 Gbps.\par
+4. RG-6 coaxial cable: A type of coaxial cable used for broadband internet connections.\par
+5. Fiber optic patch cord: A type of fiber optic cable used to connect devices in a fiber optic network.\par
+\b\fs32 Ports\par
+\b0\fs28 1. RJ-45 port: An Ethernet port used to connect devices to a network using TP cable.\par
+2. BNC port: A coaxial port used to connect devices to a broadband internet connection.\par
+3. Fiber optic port: A port used to connect devices to a fiber optic network.\par
+4. USB port: A port used to connect devices to a network or other devices using USB cables.\par
+\b\fs32 Connectors\par
+\b0\fs28 1. RJ-45 connector: An Ethernet connector used to connect TP cable to devices.\par
+2. BNC connector: A coaxial connector used to connect coaxial cable to devices.\par
+3. Fiber optic connector: A connector used to connect fiber optic cable to devices.\par
+4. USB connector: A connector used to connect USB cables to devices.\par
+5. LC connector: A type of fiber optic connector used to connect fiber optic cable to devices.\par
+6. ST connector: A type of fiber optic connector used to connect fiber optic cable to devices.\par
+7. SC connector: A type of fiber optic connector used to connect fiber optic cable\~to\~devices.\par
+\fs32 9-Define Network devices and hosts.\par
+\b ans->Network Devices\par
+\b0\fs28 Network devices are hardware or software components that facilitate communication, data transfer, and connectivity between devices on a network. Examples of network devices include:\par
+\b\fs32\par
+\fs28 1. Routers: Connect multiple networks and route data packets between them.\par
+2. Switches: Connect multiple devices within a network and forward data packets.\par
+3. Hubs: Connect multiple devices within a network and broadcast data packets.\par
+4. Modems: Connect a network to the internet via a broadband connection.\par
+5. Firewalls: Protect a network from unauthorized access and malicious activity.\par
+6. Network Interface Cards (NICs): Connect a device to a network.\par
+\fs32 Hosts\par
+\b0\fs28 Hosts are devices on a network that communicate with each other and share resources. Examples of hosts include:\par
+\b 1. Servers: Provide services, resources, and applications to clients on the network.\par
+2. Clients: Request services, resources, and applications from servers on the network.\par
+3. Workstations: Desktop or laptop computers used by users to access network resources.\par
+4. Mobile Devices: Smartphones, tablets, and laptops that connect to the network wirelessly.\par
+5. Printers: Devices that print documents and images on the network.\par
+6. IoT Devices: Internet of Things devices, such as smart home devices and sensors, that connect to the network.\par
+}
+ 
